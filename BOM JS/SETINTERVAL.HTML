@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetInterval</title>
+</head>
+<body>
+    <button id="btn">clear button</button>
+    <script>
+          btn=document.getElementById('btn');
+          btn.addEventListener('click',function()
+            {
+clearInterval(t1);
+            }
+          )
+      var t1=  setInterval(fun,2000);
+        function fun()
+        {
+            console.log("subscribe");
+        }
+    </script>
+</body>
+</html>
